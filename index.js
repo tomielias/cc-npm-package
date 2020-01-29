@@ -1,9 +1,4 @@
-// import RNContactCenterSdk from "./RNContactCenterSdk";
-
-// module.exports = {
-//   RNContactCenterSdk
-// };
-
-import { NativeModules } from "react-native";
-
-module.exports = NativeModules.RNContactCenterSdk;
+module.exports = function tiny(string) {
+  if (typeof string !== "string") throw new TypeError("Tiny wants a string!");
+  return string.replace(/\s/g, "");
+};
