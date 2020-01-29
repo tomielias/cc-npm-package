@@ -39,7 +39,7 @@ public class RNContactCenterSdkModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void platformLogin(String username, String password) {
-        this.contactCenter.platformLogin(username, password);
+        Log.d(LOG_TAG, String.format("platform login with %s / %s%n", username, password));
     }
 
 }
