@@ -1,5 +1,5 @@
 import { NativeModules } from "react-native";
 
-const { RNContactCenterSdk } = NativeModules.RNContactCenterSdk;
+const { RNContactCenterSdk } = NativeModules;
 
 export default RNContactCenterSdk;
