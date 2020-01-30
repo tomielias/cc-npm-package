@@ -2,7 +2,7 @@
   "name": "react-native-contact-center-sdk-test",
   "version": "1.0.4",
   "description": "",
-  "main": "index.js",
+  "main": "index.tsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
